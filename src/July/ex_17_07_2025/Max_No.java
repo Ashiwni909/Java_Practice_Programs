@@ -22,5 +22,8 @@ public class Max_No
         int max_no_outof_3= a>b?a:(b>c?b:c);
         System.out.println("Max no out of three is " +max_no_outof_3);
 
+        int max_no_3 = a>=b&&a>=c?a:(b>=c?b:c);
+        System.out.println(max_no_3);
+
     }
 }
